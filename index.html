@@ -1,197 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yubraj Bhandari CV</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/now" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: { 'cv-primary': '#323b4c' },
-                    fontFamily: {
-                        'now': ['Now', 'sans-serif'],
-                        'lato': ['Lato', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <link rel="stylesheet" href="style.css">
- 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yubraj Bhandari CV</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/now" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: { 'cv-primary': '#232323', 'cv-blue': '#1a0dab' },
+fontFamily: {
+'now': ['Now', 'sans-serif'],
+'lato': ['Lato', 'sans-serif']
+}
+}
+}
+}
+</script>
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 font-lato text-cv-primary p-4 md:p-8">
-    <div class="max-w-3xl mx-auto bg-white shadow-lg p-6 md:p-8">
-        <!-- Name Header -->
-        <div class="mb-6">
-            <h1 class="font-now font-bold text-2xl md:text-3xl text-cv-primary uppercase tracking-wide">
-                Yubraj Bhandari
-            </h1>
-            <div class="border-b-bold mt-2"></div>
-        </div>
-        
-       <!-- Main part -->
-        <div class="flex flex-col lg:flex-row gap-6 relative">
-            <!-- Left part -->
-            <div class="lg:w-1/3">
-                <!-- Contact  -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Contact</h2>
-                    <div class="space-y-1">
-                        <div class="flex items-center gap-2 mb-1 text-sm">
-                            <i class="fas fa-phone w-4 text-cv-primary"></i>
-                            <span>9869331963</span>
-                        </div>
-                        <div class="flex items-center gap-2 mb-1 text-sm">
-                            <i class="fas fa-envelope w-4 text-cv-primary"></i>
-                            <span>uvrajbhandari1@gmail.com</span>
-                        </div>
-                        <div class="flex items-center gap-2 mb-1 text-sm">
-                            <i class="fas fa-map-marker-alt w-4 text-cv-primary"></i>
-                            <span>Balkumari-Lalitpur</span>
-                        </div>
-                        <div class="flex items-center gap-2 mb-1 text-sm">
-                            <i class="fas fa-globe w-4 text-cv-primary"></i>
-                            <span class="underline">https://www.yubrajbhandari1.com.np/</span>
-                        </div>
-                        <div class="flex items-center gap-2 mb-1 text-sm">
-                           
-                            <span class="underline">https://github.com/Yubraj-Bhandari</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Skills  -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Skills</h2>
-                    <ul class="font-lato text-cv-primary space-y-0.5 text-sm">
-                        <li>• HTML & CSS</li>
-                        <li>• Tailwind CSS</li>
-                        <li>•  JavaScript</li>
-                        <li>• React</li>
-                        <li>• Angular</li>
-                        <li>• Express</li>
-                        <li>• Node.js</li>
-                        <li>• Postman</li>
-                        <li>• SQL</li>
-                        <li>• AWS</li>
-                        <li>• Python</li>
-                        <li>• OpenCV</li>
-                        <li>• NumPy</li>
-                        <li>• Scikit-learn</li>
-                    </ul>
-                </div>
-                
-                <!-- Certification Section -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Certification</h2>
-                    <div class="space-y-1">
-                        <div class="font-lato text-cv-primary underline text-sm">
-                            <a href="#" class="hover:underline">AWS Academy Graduate</a>
-                        </div>
-                        <div class="font-lato text-cv-primary underline text-sm">
-                            <a href="#" class="hover:underline">- AWS Academy Cloud Foundations</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Vertical line -->
-            <div class="hidden lg:block vertical-separator mx-6">
-                <div class="separator-icon" style="top: 15%;">
-                    <i class="fas fa-user"></i>
-                </div>
-                <div class="separator-icon" style="top: 45%;">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <div class="separator-icon" style="top: 75%;">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-            </div>
-            
-            <!-- Right side -->
-            <div class="lg:w-2/3">
-                <!-- Profile part -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Profile</h2>
-                    <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                       Recently graduated Computer Engineering student with a strong foundation
-                        in web development and machine learning. Eager to apply technical skills and
-                         contribute to real-world projects.
-                    </p>
-                </div>
-                
-                <!-- Projects Section -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Projects</h2>
-                    <div class="space-y-4">
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-2">Football Match Analysis Using YOLOv8 Model</h3>
-                            <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                                Football match analysis using YOLOv8 applies real-time object detection for generating analysis.
-                                Its speed and accuracy help detect fast-moving objects across frames, enabling extraction of 
-                                tactical data like player positions, ball paths, and formations.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-2">Crop Recommendation System using Naive Bayes algorithm</h3>
-                            <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                            Crop recommendation system that assists users to select the most suitable crop for their specific area
-                            based on soil and climatic properties.    
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-2">Blog Platform using React</h3>
-                            <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                                Developed a full-stack blog application enabling users to register, 
-                                login, create, edit, and delete blog posts with rich text and image uploads.
-                                Used Appwrite as backend service. Implemented state management using Redux and made the 
-                                platform responsive using Tailwind CSS.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-2">MERN Employee Management System</h3>
-                            <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                                A full stack MERN Employee Management System having features like secure JWT based authentication,
-                                role-based dashboards for admins and employees. Has RESTful APIs for task management, user management,
-                                and profile editing. Has modern responsive UI built using Tailwind CSS.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-2">MEAN Ecommerce App</h3>
-                            <p class="font-lato text-cv-primary text-sm leading-relaxed">
-                                A MEAN stack eCommerce project uses MongoDB, Express.js, Angular, and Node.js
-                                to build a full-stack online shopping platform. The backend manages authentication,
-                                products, orders, and APIs. Features like Cart management, user checkout, API integration, and scalable web app design is also added.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Education Section -->
-                <div class="mb-6">
-                    <h2 class="font-now font-bold text-base text-cv-primary uppercase border-b-bold pb-1 mb-2">Education</h2>
-                    <div class="space-y-3">
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-1">Bachelors in Computer Engineering</h3>
-                            <p class="font-lato text-cv-primary text-sm">Kathford Intl. College of Engineering and Management</p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-1">+2</h3>
-                            <p class="font-lato text-cv-primary text-sm">Pokhara Secondary School</p>
-                        </div>
-                        <div>
-                            <h3 class="font-now font-bold text-sm text-cv-primary mb-1">SEE</h3>
-                            <p class="font-lato text-cv-primary text-sm">Pragati English Boarding School</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<body class="bg-[#232323] font-lato text-cv-primary p-0">
+<div class="max-w-[850px] mx-auto bg-white border border-black p-6 pt-16 mt-0 mb-8 flex flex-col h-[1150px]">
+<!-- Name Header -->
+<div class="mb-4">
+<h1 class="font-now font-extrabold text-4xl text-black uppercase tracking-wider leading-tight">YUBRAJ BHANDARI</h1>
+<div class="w-full border-b-2 border-black mt-6"></div>
+</div>
+<!-- Main part -->
+<div class="flex flex-row flex-1 gap-6 items-stretch justify-between h-full">
+<!-- Left part -->
+<div class="w-[32%] flex flex-col h-full">
+<div>
+<!-- Contact -->
+<div class="mb-8">
+<h2 class="font-now font-bold text-base text-gray-800 py-2 mb-4 tracking-wide border-b-4 border-black w-full uppercase">CONTACT</h2>
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-[15px]">
+<i class="fas fa-phone text-black text-lg"></i>
+<span>9869331963</span>
+</div>
+<div class="flex items-center gap-2 text-[15px]">
+<i class="fas fa-envelope text-black text-lg"></i>
+<span>uvrajbhandari1@gmail.com</span>
+</div>
+<div class="flex items-center gap-2 text-[15px]">
+<i class="fas fa-map-marker-alt text-black text-lg"></i>
+<span>Balkumari-Lalitpur</span>
+</div>
+<div class="flex items-center gap-2 text-[15px]">
+<i class="fas fa-globe text-black text-lg"></i>
+<a href="https://www.yubrajbhandari1.com.np/" class="underline text-black break-all">https://www.yubrajbhandari1.com.np/</a>
+</div>
+<div class="flex items-center gap-2 text-[15px]">
+<span></span>
+<a href="https://github.com/Yubraj-Bhandari" class="underline text-black break-all">https://github.com/Yubraj-Bhandari</a>
+</div>
+</div>
+</div>
+<!-- Skills -->
+<div>
+<h2 class="font-now font-extrabold text-lg text-gray-800 py-2 mb-1 tracking-wide border-b-4 border-black w-full uppercase">SKILLS</h2>
+<ul class="list-disc pl-12 font-lato text-cv-primary space-y-2 text-[15px] leading-snug">
+<li> HTML & CSS</li>
+<li> Tailwind CSS</li>
+<li> JavaScript</li>
+<li> React</li>
+<li> Angular</li>
+<li> Express</li>
+<li> Node.js</li>
+<li> Postman</li>
+<li> SQL</li>
+<li> AWS</li>
+<li> Python</li>
+<li> OpenCV</li>
+<li> NumPy</li>
+<li> Scikit-learn</li>
+</ul>
+</div>
+</div>
+<!-- Certification Section -->
+<div>
+<h2 class="font-now font-bold text-base text-gray-800 py-2 mb-4 tracking-wide border-b-4 border-black w-full uppercase">CERTIFICATION</h2>
+<div class="space-y-2 pl-2">
+<div class="font-lato text-cv-primary underline text-[15px]">
+<a href="#" class="underline text-black">AWS Academy Graduate</a>
+</div>
+<div class="font-lato text-cv-primary underline text-[15px]">
+<a href="#" class="underline text-black">AWS Academy Cloud Foundations</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Vertical line -->
+
+<div class="vertical-separator mx-4" style="height: 70%; min-height: 950px;">
+<div class="separator-icon" style="top: 0;">
+<i class="fas fa-user"></i>
+</div>
+<div class="separator-icon" style="top: 35%;">
+<i class="fas fa-briefcase"></i>
+</div>
+<div class="separator-icon" style="top: 70%;">
+<i class="fas fa-graduation-cap"></i>
+</div>
+</div>
+
+
+<!-- Right side -->
+<div class="w-[68%] flex flex-col justify-between h-full">
+<div>
+<!-- Profile part -->
+<h2 class="font-now font-bold text-base text-gray-800 py-2 mb-1 tracking-wide border-b-4 border-black w-full uppercase">PROFILE</h2>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+Recently graduated Computer Engineering student with a strong foundation in web development and machine learning. Eager to apply technical skills and contribute to real-world projects.
+</p>
+<!-- Projects Section -->
+<h2 class="font-now font-bold text-base text-gray-800 py-2 mb-1 tracking-wide border-b-4 border-black w-full uppercase">PROJECTS</h2>
+<div class="space-y-2.5">
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 ">Football Match Analysis Using YOLOv8 Model</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+Football match analysis using YOLOv8 applies real-time object detection for generating analysis. Its speed and accuracy help detect fast-moving objects across frames, enabling extraction of tactical data like player positions, ball paths, and formations.
+</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 ">Crop Recommendation System using Naive Bayes algorithm</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+Crop recommendation system that assists users to select the most suitable crop for their specific area based on soil and climatic properties.
+</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 ">Blog Platform using React</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+Developed a full-stack blog application enabling users to register, login, create, edit, and delete blog posts with rich text and image uploads. Used Appwrite as backend service. Implemented state management using Redux and made the platform responsive using Tailwind CSS.
+</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 ">MERN Employee Management System</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+A full stack MERN Employee Management System having features like secure JWT based authentication, role-based dashboards for admins and employees. Has RESTful APIs for task management, user management, and profile editing. Has modern responsive UI built using Tailwind CSS.
+</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 ">MEAN Ecommerce App</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">
+A MEAN stack eCommerce project uses MongoDB, Express.js, Angular, and Node.js to build a full-stack online shopping platform. The backend manages authentication, products, orders, and APIs. Features like Cart management, user checkout, API integration, and scalable web app design is also added.
+</p>
+</div>
+</div>
+</div>
+<!-- Education Section (aligned with Certification) -->
+<h2 class="font-now font-bold text-base text-gray-800 py-1 mb-1 tracking-wide border-b-2 border-black w-full uppercase">EDUCATION</h2>
+<div class="space-y-1">
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 uppercase">Bachelors in Computer Engineering</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">Kathford Intl. College of Engineering and Management</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 uppercase">+2</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">Pokhara Secondary School</p>
+</div>
+<div>
+<h3 class="font-now font-bold text-[15px] text-cv-primary mb-1 uppercase">SEE</h3>
+<p class="font-lato text-cv-primary text-[15px] leading-tight">Pragati English Boarding School</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
